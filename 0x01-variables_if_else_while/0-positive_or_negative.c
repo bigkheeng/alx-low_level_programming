@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Deescription: Description: Get a random number and print the number
+ * Description: Get a random number and print the number
  * and if it is positive, negative or zero
  * Return: 0
  */
@@ -19,5 +19,6 @@ int main(void)
 		printf("%d is negative\n", n);
 	else 
 		printf("%d is zero\n", n);
+	
 	return (0);
 }
