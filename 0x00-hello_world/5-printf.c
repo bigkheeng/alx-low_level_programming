@@ -1,6 +1,8 @@
-#include <stdio.h>
+#!/bin/bash
+
 /**
- * main - main block
+ * main -Entry point
+ * 
  * Return: 0
  */
 int main void
