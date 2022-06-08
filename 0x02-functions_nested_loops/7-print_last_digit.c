@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int print_last_digit(int) - Write a function that prints the last digit
+ * print_last_digit - Write a function that prints the last digit
  * of a number.
  *
  * @n: input number as an integer.
@@ -11,6 +11,7 @@ int print_last_digit(int n)
 {
 	int l;
 	l = n % 10;
+
 	if (l < 0)
 	{
 		_putchar(-l + 48);
