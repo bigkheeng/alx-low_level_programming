@@ -9,7 +9,7 @@
  *
  * Return: absolute value
  */
-int Iabs(int i)
+int _abs(int i)
 {
 	if (i >= 0)
 	{
