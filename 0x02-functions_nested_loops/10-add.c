@@ -7,7 +7,7 @@
  * @a: number one.
  * @b: mumber two.
  *
- * Return:
+ * Return: Add of number one and number two.
  */
 int add(int a, int b)
 {
