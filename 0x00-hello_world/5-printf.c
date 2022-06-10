@@ -1,4 +1,4 @@
-#!/bin/bash
+#include <stdio>
 
 /**
  * main -Entry point
