@@ -1,29 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
- * Return: 0
- */
+* main - Print the numbers of base 16 in lowercase
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char d = '0';
+		char digit;
 
-	while (d <= '9')
-	{
-		putchar(d);
-		d++;
-	}
+		for (digit = '0'; digit <= '9'; digit++)
+		putchar(digit);
 
-	char c = 'a';
+		for (digit = 'a'; digit <= 'f'; digit++)
+		putchar(digit);
 
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
-	}
+		putchar('\n');
 
-	putchar('\n');
 	return (0);
 }
